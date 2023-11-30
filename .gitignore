@@ -1,3 +1,8 @@
+# For Developer
+safeDF_env/
+dragonFly_server/.env
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -60,6 +65,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+.sql
 
 # Flask stuff:
 instance/
