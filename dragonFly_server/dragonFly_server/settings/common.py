@@ -137,10 +137,7 @@ TIME_ZONE = 'Asia/Seoul'
 USE_I18N = True
 
 USE_TZ = False
-<<<<<<< HEAD
-=======
 
->>>>>>> origin-flit/dev
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
@@ -156,6 +153,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+<<<<<<< Updated upstream:dragonFly_server/dragonFly_server/settings/common.py
 
 # Account settings
 AUTH_USER_MODEL = "accounts.User"
@@ -171,3 +169,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ],
 }
+=======
+>>>>>>> Stashed changes:dragonFly_server/dragonFly_server/settings.py
