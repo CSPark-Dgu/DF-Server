@@ -153,7 +153,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-<<<<<<< Updated upstream:dragonFly_server/dragonFly_server/settings/common.py
+
 
 # Account settings
 AUTH_USER_MODEL = "accounts.User"
@@ -169,5 +169,4 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ],
 }
-=======
->>>>>>> Stashed changes:dragonFly_server/dragonFly_server/settings.py
+
